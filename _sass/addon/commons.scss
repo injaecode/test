@@ -364,6 +364,11 @@ main {
     margin-bottom: 1.5rem;
   }
 
+  h2 {
+    background-color: rgba(230, 238, 120, 0.5);
+    padding: 2%;
+    margin-left:-1rem
+  }
   p {
     > a.popup {
       &:not(.normal):not(.left):not(.right) {
@@ -680,7 +685,7 @@ $btn-mb: 0.5rem;
 
 #sidebar {
   @include pl-pr(0);
-
+  font-family: 'Permanent Marker';
   position: fixed;
   top: 0;
   left: 0;
@@ -770,16 +775,16 @@ $btn-mb: 0.5rem;
     li.nav-item {
       opacity: 0.9;
       width: 100%;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
 
       a.nav-link {
-        @include pt-pb(0.6rem);
+        @include pt-pb(0.4rem);
 
         display: flex;
         align-items: center;
         border-radius: 0.75rem;
-        font-weight: 600;
+        font-weight: 300;
 
         &:hover {
           background-color: var(--sidebar-hover-bg);
@@ -792,8 +797,8 @@ $btn-mb: 0.5rem;
         }
 
         span {
-          font-size: 90%;
-          letter-spacing: 0.2px;
+          font-size: 80%;
+          letter-spacing: 0.3px;
         }
       }
 

@@ -1,5 +1,6 @@
 ---
 layout: archives
 icon: fas fa-archive
-order: 3
+title: Today I Learned
+order: 2
 ---
