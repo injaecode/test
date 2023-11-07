@@ -695,7 +695,7 @@ $btn-mb: 0.5rem;
   z-index: 99;
   background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color);
-
+  font-size: 1.1rem;
   /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
     display: none;
@@ -829,7 +829,7 @@ $btn-mb: 0.5rem;
     %button {
       width: $btn-size;
       height: $btn-size;
-      margin-bottom: $btn-mb; // multi line gap
+//      margin-bottom: $btn-mb; // multi line gap
       border-radius: 50%;
       color: var(--sidebar-btn-color);
       background-color: var(--sidebar-btn-bg);
@@ -1528,7 +1528,6 @@ search {
     .sidebar-bottom {
       padding-left: 2.75rem;
       margin-bottom: 1.75rem;
-
       a:not(:last-child) {
         margin-right: $sb-btn-gap-lg;
       }
@@ -1536,6 +1535,8 @@ search {
       .icon-border {
         @include ml-mr(calc(($sb-btn-gap-lg - $btn-border-width) / 2));
       }
+
+
     }
   }
 } /* min-width: 1650px */
